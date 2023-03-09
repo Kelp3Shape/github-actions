@@ -13,3 +13,8 @@ jobs:
         run: echo "Hello world"
       - name: Print Goodbye
         run: echo "BYEEE"
+      - name: Run 2 lines
+        run: |
+          echo "line 1"
+          echo "line 2"
+        
