@@ -1,5 +1,6 @@
 name: First Workflow
 # workflow_dispatch is used to manually trigger workflow
+# Workflow triggers (also called events) can be found here: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
 on: workflow_dispatch
 jobs:
   # first-JOB is a name we can give freely
